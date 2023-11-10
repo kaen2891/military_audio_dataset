@@ -1,5 +1,5 @@
-# MAA: Dataset Related to Military Activity Audio for Acoustic Hazardous Situation Surveillance System
-Official code implementation of "MAA: Dataset Related to Military Activity Audio for Acoustic Hazardous Situation Surveillance System"
+# MEA: Military Environment Audio Dataset for Inducing Acoustic Hazardous Situation Surveillance System
+Official code implementation of "MEA: Military Environment Audio Dataset for Inducing Acoustic Hazardous Situation Surveillance System"
 
 ## Requirements
 Install the necessary packages with: 
@@ -9,11 +9,11 @@ $ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-Download the MAA dataset files from [figshare](https://figshare.com/account/home).     
-And extract zip file into ./data/ folder
-All the waveform `*.wav` files and label `*.csv` files should be saved in `data/MSC_dataset/`
+Download the MEA dataset files from [figshare](https://figshare.com/account/home).     
+And extract zip file into ./data/ folder.
+All the waveform `*.wav` files and label `*.csv` files should be saved in `data/MEA_dataset/`.
 
-Note that the MSC dataset consists of a total of dataset consists of a total of 7,46 audio clips, 
+Note that the MEA dataset consists of a total of dataset consists of a total of 7,46 audio clips, 
 of which 6,429 contain training samples and 1,037 contain test samples.
 
 
