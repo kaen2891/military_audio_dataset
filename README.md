@@ -29,7 +29,7 @@ To simply train the model, run the shell files in `scripts/`.
 Except for these scripts, there are many scripts in `scripts/`. Please check.
 
 Important arguments for models.
-- `--model`: network architecture, see [models](models/)s
+- `--model`: network architecture, see [models](models/)
 - `--from_sl_official`: load ImageNet or AudioSet pretrained checkpoint
 - `--audioset_pretrained`: load AudioSet pretrained checkpoint and only support AST
 
