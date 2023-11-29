@@ -1,5 +1,5 @@
-# MEA: Military Environment Audio Dataset for Inducing Acoustic Hazardous Situation Surveillance System
-Official code implementation of "MEA: Military Environment Audio Dataset for Inducing Acoustic Hazardous Situation Surveillance System"
+# MAD: A Military Audio Dataset for Situational Awareness and Surveillance
+Official code implementation of "MAD: A Military Audio Dataset for Situational Awareness and Surveillance"
 
 ## Requirements
 Install the necessary packages with: 
@@ -9,11 +9,11 @@ $ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-Download the MEA dataset files from [figshare](https://figshare.com/account/home).     
+Download the MAD dataset files from [figshare](https://figshare.com/account/home).     
 And extract zip file into ./data/ folder.
-All the waveform `*.wav` files and label `*.csv` files should be saved in `data/MEA_dataset/`.
+All the waveform `*.wav` files and label `*.csv` files should be saved in `data/MAD_dataset/`.
 
-Note that the MEA dataset consists of a total of dataset consists of a total of 7,46 audio clips, 
+Note that the MAD dataset consists of a total of dataset consists of a total of 7,46 audio clips, 
 of which 6,429 contain training samples and 1,037 contain test samples.
 
 
