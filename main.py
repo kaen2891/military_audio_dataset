@@ -99,7 +99,7 @@ def parse_args():
     args = parser.parse_args()
     
     #args.data_folder = os.path.join(args.data_folder, 'seed{}'.format(args.seed))
-    args.data_folder = os.path.join(args.data_folder, 'MEA_dataset')
+    args.data_folder = os.path.join(args.data_folder, 'MAD_dataset')
     print('data_folder', args.data_folder)
 
     iterations = args.lr_decay_epochs.split(',')
