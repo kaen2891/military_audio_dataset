@@ -1,0 +1,15 @@
+yt-dlp
+pandas
+librosa
+soundfile
+nlpaug
+audiomentations
+timm==0.4.5
+tqdm
+wget
+seaborn
+numpy
+tensorboard
+matplotlib
+scikit-learn
+scipy
