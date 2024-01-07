@@ -4,17 +4,31 @@ Official code implementation of "MAD: A Military Audio Dataset for Situational A
 ## Requirements
 Install the necessary packages with: 
 ```
-$ pip install torch torchvision torchaudio
+$ pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 $ pip install -r requirements.txt
 ```
 
-## Data Preparation
-Download the MAD dataset files from [figshare](https://figshare.com/account/home).     
-And extract zip file into ./data/ folder.
-All the waveform `*.wav` files and label `*.csv` files should be saved in `data/MAD_dataset/`.
+## Notation (important)
+Please first download mad_dataset_annotation.csv, train.csv and test.csv from [figshare](https://figshare.com/account/home).
+The `mad_dataset_annotation.csv` must be located in `./`
+The `training.csv` and `test.csv` file must be located in `./data/MAD_dataset/`
 
-Note that the MAD dataset consists of a total of dataset consists of a total of 7,46 audio clips, 
-of which 6,429 contain training samples and 1,037 contain test samples.
+
+## Data Preparation
+###
+To download all the audio samples from youtube url.
+
+```
+python3 youtube_audio_download.py
+```
+It takes around 2-3 hours to download all the videos
+
+###
+We then extract waveforms using audio segmentation labels.
+```
+python get_sample.py
+```
+All the samples must be located in `./data/MAD_dataset/training` and `./data/MAD_dataset/test`
 
 
 ## Training 
