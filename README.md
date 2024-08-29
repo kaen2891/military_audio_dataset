@@ -9,7 +9,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Notation (important)
-Please first download mad_dataset_annotation.csv, train.csv and test.csv from [figshare](https://figshare.com/account/home).
+Please first download mad_dataset_annotation.csv, train.csv and test.csv from [figshare](https://springernature.figshare.com/collections/_/7001919).
 The `mad_dataset_annotation.csv` must be located in `./`
 The `training.csv` and `test.csv` file must be located in `./data/MAD_dataset/`
 
