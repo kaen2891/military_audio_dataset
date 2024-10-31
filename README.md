@@ -9,12 +9,15 @@ $ pip install -r requirements.txt
 ```
 
 ## Notation (important)
-Please first download mad_dataset_annotation.csv, train.csv and test.csv from [figshare](https://figshare.com/account/home).
+**You can directly download the overall dataset from** [kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset).
+
 The `mad_dataset_annotation.csv` must be located in `./`
 The `training.csv` and `test.csv` file must be located in `./data/MAD_dataset/`
 
 
-## Data Preparation
+## Data Preparation 
+**Please download the dataset from** [kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset). **We can ignore this part. Go Training part**
+
 ###
 To download all the audio samples from youtube url.
 
@@ -54,8 +57,21 @@ Important arugment for evaluation.
 
 The pretrained model checkpoints will be saved at `save/[EXP_NAME]/best.pth`.     
 
-## Result
+## BibTeX
+If you find this repo useful for your research, please consider citing our paper:
 
+```
+@article{kim2024military,
+  title={A Military Audio Dataset for Situational Awareness and Surveillance},
+  author={Kim, June-Woo and Yoon, Chihyeon and Jung, Ho-Young},
+  journal={Scientific Data},
+  volume={11},
+  number={1},
+  pages={668},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 ## Contact
 - June-Woo Kim: kaen2891@knu.ac.kr
