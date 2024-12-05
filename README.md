@@ -1,4 +1,7 @@
 # MAD: A Military Audio Dataset for Situational Awareness and Surveillance
+[Journal](https://www.nature.com/articles/s41597-024-03511-w) | [Kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset) | [BibTeX](#bibtex)
+
+
 Official code implementation of "MAD: A Military Audio Dataset for Situational Awareness and Surveillance"
 
 ## Requirements
@@ -74,4 +77,4 @@ If you find this repo useful for your research, please consider citing our paper
 ```
 
 ## Contact
-- June-Woo Kim: kaen2891@knu.ac.kr
+- June-Woo Kim: kaen2891@gmail.com
