@@ -76,5 +76,11 @@ If you find this repo useful for your research, please consider citing our paper
 }
 ```
 
+## License
+This project, including the dataset, code, and paper, is licensed under the  
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+Please make sure to cite our paper when using this work.
+
 ## Contact
 - June-Woo Kim: kaen2891@gmail.com
