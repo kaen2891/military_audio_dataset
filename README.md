@@ -14,27 +14,16 @@ $ pip install -r requirements.txt
 ## Notation (important)
 **You can directly download the overall dataset from** [kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset).
 
-The `mad_dataset_annotation.csv` must be located in `./`
-The `training.csv` and `test.csv` file must be located in `./data/MAD_dataset/`
+<!-- The `mad_dataset_annotation.csv` must be located in `./` -->
+The `training.csv` and `test.csv` file must be located in `./data/MAD_dataset/`.
+
+**Please download the dataset from** [kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset). 
+
+Place the datasets into `./data/MAD_dataset/`.
+
+**`youtube_audio_download.py` file is no longer needed for our data download procedure. Go Training part. **
 
 
-## Data Preparation 
-**Please download the dataset from** [kaggle](https://www.kaggle.com/datasets/junewookim/mad-dataset-military-audio-dataset). **We can ignore this part. Go Training part**
-
-###
-To download all the audio samples from youtube url.
-
-```
-python3 youtube_audio_download.py
-```
-It takes around 2-3 hours to download all the videos
-
-###
-We then extract waveforms using audio segmentation labels.
-```
-python get_sample.py
-```
-All the samples must be located in `./data/MAD_dataset/training` and `./data/MAD_dataset/test`
 
 
 ## Training 
@@ -59,6 +48,28 @@ Important arugment for evaluation.
 - `--pretrained_ckpt`: path for the pretrained checkpoint
 
 The pretrained model checkpoints will be saved at `save/[EXP_NAME]/best.pth`.     
+
+## Deprecated
+<details>
+  <summary>Data Preparation</summary>
+
+###
+To download all the audio samples from youtube url.
+
+```
+python3 youtube_audio_download.py
+```
+It takes around 2-3 hours to download all the videos
+
+###
+We then extract waveforms using audio segmentation labels.
+```
+python get_sample.py
+```
+All the samples must be located in `./data/MAD_dataset/training` and `./data/MAD_dataset/test`
+
+  
+</details>
 
 ## BibTeX
 If you find this repo useful for your research, please consider citing our paper:
